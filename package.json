@@ -1,0 +1,17 @@
+{
+  "name": "actividad-docker-gastos",
+  "version": "1.0.0",
+  "description": "Aplicacion sencilla de control de gastos para la practica de Docker y GitHub Actions",
+  "main": "src.js",
+  "scripts": {
+    "start": "node src.js",
+    "test": "node --test test/gastos.test.js",
+    "coverage": "node --test --experimental-test-coverage test/gastos.test.js"
+  },
+  "keywords": [
+    "docker",
+    "github-actions",
+    "node"
+  ],
+  "license": "MIT"
+}
